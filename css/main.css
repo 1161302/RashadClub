@@ -471,7 +471,7 @@ section {
 
 #apartments .wrapper {
 	margin: 0 auto;
-	max-width: 1280px;
+	max-width: 1480px;
 	width: 100%;
 }
 
@@ -498,13 +498,13 @@ section {
 }
 
 #apartments .apartments.comfort {
-	width: 30%;
+	width: 31%;
 }
 #apartments .apartments.vip {
 	width: 35%;
 }
 #apartments .apartments.lux {
-	width: 30%;
+	width: 31%;
 }
 
 #apartments .apartments .apart_img {
@@ -518,18 +518,18 @@ section {
 }
 
 #apartments .apartments.comfort .apart_img {
-	background-image: url(../img/hotels/comfort/comfort_mob.jpg);
-	background-position: left;
+	background-image: url(../img/hotels/comfort/comfort.jpg);
+	background-size: 100% 100%;
 	width: 100%;
 }
 #apartments .apartments.vip .apart_img {
-	background-image: url(../img/hotels/vip/vip_mob.jpg);
-	background-position: right;
+	background-image: url(../img/hotels/vip/vip.jpg);
+	background-size: 100% 100%;
 	width: 100%;
 }
 #apartments .apartments.lux .apart_img {
-	background-image: url(../img/hotels/lux/lux_mob.jpg);
-	background-position: left;
+	background-image: url(../img/hotels/lux/lux.jpg);
+	background-size: 100% 100%;
 	width: 100%;
 }
 
