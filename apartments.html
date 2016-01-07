@@ -1,22 +1,12 @@
-<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+<!-- <!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd"> -->
 <html>
 <head>
 	<title>Rashad Hotels</title>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="css/apartments.css">
 	<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
-	<link href='css/tiltedpage-scroll.css' rel='stylesheet' type='text/css'>
-	<meta name="viewport" content="width=device-width">
-	<meta name="viewport" content="initial-scale=1.0, user-scalable=no, maximum-scale=1" />
-	<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
-	<script src="js/flipping_gallery/jquery.tiltedpage-scroll.js"></script>
-	<script>
-	  $(document).ready(function(){
-      $(".main").tiltedpage_scroll({
-        angle: 20
-      });
-		});
-	  </script>
+	<!-- <meta name="viewport" content="width=device-width">
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no, maximum-scale=1" /> -->
 </head>
 <body>
 
@@ -29,8 +19,8 @@
 			<nav class="navigation">
 				<ul class="nav-menu">
 					<li><a href="apartments.html">Апартаменты</a></li>
-					<li><a href="">Контакты</a></li>
-					<li><a href="">О клубе Рашад</a></li>
+					<li><a href="index.html#contacts">Контакты</a></li>
+					<li><a href="index.html#about-us">О клубе Рашад</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -39,7 +29,7 @@
 	<header></header>
 	  	   <section class="comfort">
 	        <div class="page_container">
-	          <a href="hotels/comfort.html" target="_blank">
+	          <a href="apartments/comfort.html">
 	          	<h1>Комфорт</h1>
 	          	<p>Спокойствие и уют</p>
 	          </a>
@@ -47,7 +37,7 @@
 	      </section>
 	  	   <section class="lux">
 	        <div class="page_container">
-	          <a href="hotels/lux.html" target="_blank">
+	          <a href="apartments/lux.html">
 	          	<h1>Люкс</h1>
 	          	<p>Комфортный двухместный номер с видом на бассейн и горы</p>
 	          </a>
@@ -55,7 +45,7 @@
 	      </section>
 	  	  <section class="vip">
 	        <div class="page_container">
-	          <a href="hotels/vip.html" target="_blank">
+	          <a href="apartments/vip.html">
 	          	<h1>Просторный VIP</h1>
 	          	<p>Апартаменты с видом на море</p>
 	          </a>
@@ -63,5 +53,26 @@
 	      </section>
 	 </div>
 	</div>
+		<!-- Подвал -->
+		<div class="footer" id="contacts">
+			<p class="stars">★★★</p>
+			<a href="#top"><div class="rashad"></div></a>
+			<p class="phones"><a href="tel:+79782108565">+7 (978) 210 85 65</a><br><a href="tel:+74959732335">+7 (495) 973 23 35</a></p>
+			<p class="address">Рекреационный комплекс "РАШАД" г.Севастополь, р-н Бухты Казачья, Рубежный проезд, 28.</p>
+			<p class="copyright">Copyright © 2015 - 2016. All right reserved.</p>
+		</div>
+		<!-- Конец подвала -->
+
+<!--********** ALL SCRIPTS *********-->
+<!-- Yandex.Metrika counter --><script type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter34508410 = new Ya.Metrika({ id:34508410, clickmap:true, trackLinks:true, accurateTrackBounce:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="https://mc.yandex.ru/watch/34508410" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter -->
+<script src="js/jquery.min.js"></script>
+	<script src="js/flipping_gallery/jquery.tiltedpage-scroll.js"></script>
+	<script>
+	  $(document).ready(function(){
+      $(".main").tiltedpage_scroll({
+        angle: 20
+      });
+		});
+	  </script>
 </body>
 </html>
